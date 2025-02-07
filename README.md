@@ -1,7 +1,7 @@
 # RediSearch: Node.js REST search service
 
 Tracker:
-- [x] Created Redis data service from Redis Cloud
+- [x] Created Redis data service via Redis Cloud
 - [x] Added sample data via Redis Insignt UI
   ```
   HSET movie:11033 title "Tomorrow Never Dies - 007"
