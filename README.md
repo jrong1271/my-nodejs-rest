@@ -1,6 +1,12 @@
-# RediSearch: Node.js Sample
+# RediSearch: Node.js REST search service
 
-
+Tracker:
+- [x] Created Redis data service from Redis Cloud
+- [x] Added sample data via Redis Insignt UI
+  ```
+  HSET movie:11033 title "Tomorrow Never Dies - 007"
+  FT.SEARCH idx:movie "007"
+  ```
 
 
 ## Coding the application
