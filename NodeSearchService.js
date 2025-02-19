@@ -1,7 +1,7 @@
 const redis = require('redis');
 const redisearch = require('redis-redisearch');
 
-const redisUrl = process.env.REDIS_URL || 'redis://default:QdFDAAQcvuvGDkGFO3z9V2uvJn0usupQ@redis-13210.c16.us-east-1-3.ec2.redns.redis-cloud.com:13210';
+const redisUrl = process.env.REDIS_URL || 'redis://localhost:6379';
 const indexNameMovies = process.env.REDIS_INDEX || 'idx:movie';
 const indexNameComments = process.env.REDIS_INDEX_COMMENTS || 'idx:comments:movies';
 
